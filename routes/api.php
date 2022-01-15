@@ -25,3 +25,9 @@ Route::get('data', [BohzApiController::class, 'getapi']);
 Route::get('list/{name?}', [deviceController::class, 'list']);
 
 Route::post('add', [deviceController::class, 'add']);
+
+Route::put('update', [deviceController::class, 'update']);
+
+Route::get('search/{name}', [deviceController::class, 'search']);
+
+Route::delete('delete/{id}', [deviceController::class, 'delete']);
