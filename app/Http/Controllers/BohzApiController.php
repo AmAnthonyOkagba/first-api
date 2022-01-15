@@ -8,6 +8,6 @@ class BohzApiController extends Controller
 {
     function getapi()
     {
-        return [['name'=>'bohz']];
+        return ['name'=>'bohz'];
     }
 }
